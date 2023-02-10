@@ -1,3 +1,19 @@
-@import "preset";
+@import 'preset';
 
-#app{ }
+.bg {
+    background: url('./assets/images/GiraffePlainBG.png') no-repeat center
+        center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loadingText {
+    font-size: 50px;
+    color: $grayishWhite;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}

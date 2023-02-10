@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Beginn der Kommentare auf Deutsch-->
+        <!-- Festlegung der Zeichensatz -->
         <meta charset="UTF-8" />
+        <!-- Verlinkung des Favicons -->
         <link
             rel="icon"
             type="image/svg+xml"
             href="./assets/images/Letter-F.svg"
         />
+        <!-- Font Awesome Skript wird hier heruntergeladen -->
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -14,12 +18,17 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <!-- Legt die Ansicht des Browsers fest-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>App</title>
+        <!-- Titel der Seite -->
+        <title>Blurry Loading App</title>
     </head>
     <body>
-        <div id="container">Hallo Welt!</div>
-
+        <!-- body class für den Hintergrund -->
+        <section class="bg"></section>
+        <!-- Element an dem der Text zur Anzeige des Ladefortschritts angezeigt wird -->
+        <div class="loadingText">0%</div>
+        <!-- Modulartige Skriptzuweisung -->
         <script type="module" src="./js/main.js"></script>
     </body>
 </html>
